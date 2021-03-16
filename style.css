@@ -1,0 +1,274 @@
+html{
+    font-size: 21px;
+    font-family: Montserrat;
+    color:rgb(43, 43, 43);
+}
+
+.background {
+    margin: 0;
+    padding: 0;    
+    width: 100%;
+    position: relative;
+}
+
+
+nav {
+     
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    margin-left: 12%;
+    margin-top: 8px;
+}
+
+#navLeft li {
+    padding: 1rem 2rem;
+    list-style-type: none;
+    width: 5rem;
+    height: 1.5rem;
+    text-align: center;
+    transition: color 0.2s ease-in 0s,
+    font-size 0.1s ease-in 0s;
+}
+
+#navLeft a {
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+}
+
+#navLeft li:hover {
+    color: rgb(0, 163, 212);
+    font-size: 1.1rem;
+} 
+
+#navMyName {
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+h1 {
+    position: absolute;
+    font-family: "Shadows Into Light";
+    top: 4rem;
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+#content {
+    position: absolute;
+    top: 15rem;
+    width: 60%;
+    height: 120rem;
+    left: 20%;
+    border: 1px solid rgba(128, 128, 128, 0.247);
+    
+    box-shadow: -2px 2px 25px black;
+}
+
+#top {
+    width: 100%;
+    height: 39rem;
+    background: linear-gradient(rgba(43, 43, 43, 0) 0%, rgb(43, 43, 43) 92%);
+    
+}
+
+#top h2 {
+    margin: 8rem 0 0 29rem;
+    color: rgba(255, 255, 255, 0.986);
+}
+
+
+
+
+
+#top p {
+    color:rgb(236, 233, 233);
+    margin-top: 4rem;
+    background-color:rgba(5, 5, 5, 0.541);
+    padding: 1rem;
+    width: 19rem;
+   
+}
+
+#myName {
+    margin-left: 22rem;
+}
+    
+#passion {
+    margin-left: 31rem;
+}
+
+#middle {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(43, 43, 43);
+}
+
+#middle h2 {
+    color: rgba(255, 255, 255, 0.986);
+    margin-top: 0;
+    padding: 9rem 0 0 17rem;
+}
+
+#middle ul {
+    
+    font-size: 0.9rem;
+    display: block;
+    margin-left: 4rem;
+    color: rgb(223, 219, 219);
+    border-right: 1px solid rgba(223, 219, 219, 0.582);
+    width: 30rem;
+    
+}
+
+#middle li {
+    padding: 1rem 2rem;
+    list-style-type: none;
+}
+
+#bottom { 
+    width: 100%;
+    height: 31%;
+    background-color: rgb(151, 156, 167);  
+}
+
+#bottom h2{ 
+    color: rgba(255, 255, 255, 0.986);
+    margin-top: 0;
+    padding: 6rem 0 0 6rem;   
+}
+
+
+
+
+#grid {
+    width: 70%;
+    height: 5rem;
+    margin: 3rem 8rem;
+    display: grid;
+    grid-template: repeat(2, 1fr) / 2fr 1fr 2fr;
+    grid-gap: 0.7rem 0.7rem; 
+}
+
+#grid div {
+    height: 11rem;
+    box-shadow: 0px 0px 3px black;
+   
+    
+}
+
+#grid img {
+    width: 100%;
+    height: 100%;   
+    
+}
+
+#kapital {
+    grid-area: 1 / 1 / span 1 / span 2;
+    
+}
+
+#kapitalImg:hover {
+    box-shadow: 0px 0px 40px rgb(1, 46, 105); 
+}
+
+#everything {
+    grid-area: 1 / 3 / span 1 / span 1;
+}
+
+#everythingImg:hover {
+    box-shadow: 0px 0px 40px rgb(1, 46, 105); 
+}
+
+#expand {
+    grid-area: 2 / 1 / span 1 / span 1;
+}
+
+#expandImg:hover {
+    box-shadow: 0px 0px 40px rgb(1, 46, 105); 
+}
+
+#monsa {
+    grid-area: 2 / 2 / span 1 / span 2;
+}
+
+#monsaImg:hover {
+    box-shadow: 0px 0px 40px rgb(1, 46, 105); 
+}
+
+
+
+
+
+
+#aboutMe {
+    position: absolute;
+    top: 7.5rem;
+    left: 53rem;
+    color: rgba(0, 0, 0, 0.205);
+    font-size: 6rem;
+}
+
+#myPhoto {    
+    width: 20rem;
+    box-shadow: 0px 0px 100px black;
+    position: absolute;
+    top: 48rem;
+    left: 26rem;
+}
+
+#skills {
+    position: absolute;
+    top: 58.5rem;
+    left: 4rem;
+    font-size: 6rem;
+    color: rgba(128, 128, 128, 0.274);
+}
+
+#projects {
+    position: absolute;
+    top: 93rem;
+    left: 53rem;
+    font-size: 6rem;
+    color: rgba(128, 128, 128, 0.274);
+}
+
+#contacts {
+    position: absolute;
+    top: 127rem;
+    left: 4rem;
+    font-size: 6rem;
+    color: rgba(128, 128, 128, 0.274);  
+}
+
+footer {
+    border-top: 1px solid gray;
+    position: absolute;
+    top: 142rem;
+    width: 99%;
+}
+
+#footerFlex {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.6rem;
+}
+footer img {
+    width: 1rem;
+    height: 1rem;
+    padding-top: 0.4rem;
+}
+
+footer p { 
+padding-right: 1rem;
+padding-left: 0.2rem; 
+}
+
+.last { 
+    height: 24rem;
+}

@@ -1,0 +1,236 @@
+html {
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    color: gray;
+}
+
+
+@media only screen and (max-width: 1200px) {
+ html {
+     font-size: 9px;
+ }   
+}
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 5px;
+    }   
+   }
+
+
+
+
+
+ul {
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 15rem;
+
+
+}
+
+li {
+    list-style-type: none;
+    padding: 5rem 1rem;
+    font-size: 2rem;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+}
+
+#one {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 2;
+    width: 100%;
+    height: 100%
+}
+
+#two {
+    grid-row: 1 / span 1;
+    grid-column: 3 / span 2;
+    width: 100%;
+    height: 100%
+}
+
+#three {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    width: 100%;
+    height: 100%
+}
+
+#four {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    width: 100%;
+    height: 100%
+}
+
+#five {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+    width: 100%;
+    height: 100%
+}
+
+#six {
+    grid-row: 2 / span 1;
+    grid-column: 4 / span 1;
+    width: 100%;
+    height: 100%
+}
+
+h6 {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+#what {
+    display: flex;
+    justify-content: center;
+}
+
+#what h1 {
+    text-align: center;
+    width: 50%;
+}
+
+#what p {
+    text-align: center;
+    width: 50%;
+    border-left: 1px solid gray;
+}
+
+#ux {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.uxul {
+    width: 50%;
+    text-align: center;
+}
+
+.uxul img {
+ width: 90%;
+ margin: auto;
+
+}
+
+.uxul h4 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: 1.2rem;
+    border-left: 6.5rem solid grey;
+}
+
+#left {
+    font-size: 2rem;
+    margin-left: 25rem;
+}
+
+#p-left {
+    margin-left: 2.5rem;
+}
+
+.uxul h1 {
+    text-align: center;
+    border-left: 1px solid gray;
+    padding: 5rem auto;
+    margin-top: 20rem;
+    font-size: 4rem;
+}
+
+.uxul p {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.bottom-div {
+    width: 50%;
+}
+
+.bottom-div h1 {
+    text-align: center;
+    border-right: 1px solid gray;
+    width: 90%;
+    margin: auto;
+    font-size: 3rem;
+}
+
+.grid {
+    
+    display: grid;
+    width: 80%;
+    margin: 10rem auto auto auto;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+#q {
+    grid-area: 2 / 1 / span 1 / span 1;
+}
+#w {
+    grid-area: 3 / 1 / span 1 / span 1;
+}
+#e {
+    grid-area: 3 / 2 / span 1 / span 1;
+}
+
+.bottom-div h5 {
+    font-size: 1.2rem;
+}
+
+#fname {
+    width: 80%;
+    height: 2rem;
+}
+
+footer h4 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
